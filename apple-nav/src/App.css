@@ -1,0 +1,71 @@
+* {
+  box-sizing: border-box;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: rgb(49, 49, 49);
+  font-size: calc(10px + 2vmin);
+  color: white;
+  width: 100%;
+}
+
+.App-header .nav-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1000px;
+  margin: 0 auto;
+  height: 40px;
+}
+
+.App-header .nav-wrapper .nav-icon {
+  font-size: 24px;
+}
+
+.App-header .nav-wrapper a {
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.App-header .nav-wrapper a {
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+}
+
+.App-header .nav-wrapper a:hover {
+  color: lightgray;
+}
+
+.App-header .sub-nav-menu {
+  display: flex;
+  background: rgb(246, 246, 246);
+  color: black;
+  justify-content: center;
+  padding: 15px 0;
+}
+
+.App-header .sub-nav-menu .sub-nav-links {
+  cursor: pointer;
+  margin: 0 10px;
+  font-size: 12px;
+  width: 70px;
+}
+
+.App-header .sub-nav-menu .sub-nav-links .sub-nav-icon{
+  font-size: 30px;
+}
+
+.App-header .sub-nav-menu .sub-nav-links div {
+  margin: 10px 0;
+}
+
+.App-header .sub-nav-menu .sub-nav-links div:hover {
+  color: rgb(0, 0, 253);
+}
