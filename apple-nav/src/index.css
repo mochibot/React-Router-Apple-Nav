@@ -6,3 +6,122 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+* {
+  box-sizing: border-box;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: rgb(49, 49, 49);
+  font-size: calc(10px + 2vmin);
+  color: white;
+  width: 100%;
+
+}
+
+.App-header .nav-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.App-header .nav-wrapper .nav-icon {
+  font-size: 24px;
+}
+
+.App-header .nav-wrapper a {
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.App-header .nav-wrapper a {
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+}
+
+.App-header .nav-wrapper .active {
+  color: lightgray;
+}
+
+.App-header .nav-wrapper a:hover {
+  color: lightgray;
+}
+
+.App-header .sub-nav-menu {
+  width: 100%;
+  display: flex;
+  background: rgb(246, 246, 246);
+  color: black;
+  justify-content: center;
+  padding: 20px 0;
+}
+
+.App-header .sub-nav-menu .sub-nav-links {
+  cursor: pointer;
+  margin: 0 12px;
+  font-size: 12px;
+  width: 70px;
+}
+
+.App-header .sub-nav-menu .sub-nav-links img {
+  height: 50px;
+}
+
+.App-header .sub-nav-menu .sub-nav-links div {
+  margin-top: 10px;
+}
+
+.App-header .sub-nav-menu .sub-nav-links div:hover {
+  color: rgb(0, 0, 253);
+}
+
+.App-header .support-header {
+  width: 100%;
+  height: 77vh;
+  background: url('https://support.apple.com/content/dam/edam/applecare/images/en_US/homepage/hero-banner-homepage.image.large_2x.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* Center the image */
+  background-position: center;
+}
+
+.App-header .support-header h2{
+  color: black;
+  margin: 0;
+  padding: 50px;
+  font-size: 40px;
+}
+
+.App-header .support-header input {
+  font-size: 30px;
+  line-height: 40px;
+  width: 500px;
+}
+
+.fade-enter {
+  opacity: 0.01;
+}
+
+.fade-enter .fade-enter-active {
+  opacity: 1;
+  transition: opacity 500ms ease-in;
+}
+
+.fade-leave {
+  opacity: 1;
+}
+
+.fade-leave .fade-leave-active {
+  opacity: 0.01;
+  transition: opacity 500ms ease-in;
+}

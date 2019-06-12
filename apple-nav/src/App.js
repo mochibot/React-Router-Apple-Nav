@@ -1,9 +1,10 @@
 import React from 'react';
 import { Route } from 'react-router-dom';
-import './App.css';
 import { navBarData } from './nav-data';
+
 import NavWrapper from './components/NavWrapper';
 import SubNav from './components/SubNav';
+import Support from './components/Support';
 
 class App extends React.Component {
   constructor() {
@@ -27,11 +28,14 @@ class App extends React.Component {
           <Route 
             path='/:product'
             render={(props) => (
-              <SubNav 
-                {...props}
-                links={this.state.links} />
+                <SubNav 
+                  {...props}
+                  links={this.state.links} />
             )}
           />
+          <Route
+            path='/Support'
+            component={Support} />
         </div>
       </div>
     );

@@ -1,9 +1,9 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 const Nav = (props) => {
   return (
-    <Link to={`/${props.link.link}`}>{props.link.link}</Link>
+    <NavLink exact to={`/${props.link.link}`}>{props.link.link}</NavLink>
   )
 }
 

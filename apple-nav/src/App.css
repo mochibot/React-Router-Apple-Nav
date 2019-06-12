@@ -11,6 +11,7 @@
   font-size: calc(10px + 2vmin);
   color: white;
   width: 100%;
+
 }
 
 .App-header .nav-wrapper {
@@ -19,7 +20,7 @@
   align-items: center;
   max-width: 1000px;
   margin: 0 auto;
-  height: 40px;
+  padding: 10px;
 }
 
 .App-header .nav-wrapper .nav-icon {
@@ -30,13 +31,18 @@
   text-decoration: none;
   color: white;
   cursor: pointer;
-  font-size: 20px;
+  font-size: 16px;
 }
 
 .App-header .nav-wrapper a {
   text-decoration: none;
   color: white;
   cursor: pointer;
+}
+
+.App-header .nav-wrapper .active {
+  text-decoration: underline;
+  color: lightgray;
 }
 
 .App-header .nav-wrapper a:hover {
@@ -48,12 +54,12 @@
   background: rgb(246, 246, 246);
   color: black;
   justify-content: center;
-  padding: 15px 0;
+  padding: 20px 0;
 }
 
 .App-header .sub-nav-menu .sub-nav-links {
   cursor: pointer;
-  margin: 0 10px;
+  margin: 0 12px;
   font-size: 12px;
   width: 70px;
 }
@@ -63,7 +69,7 @@
 }
 
 .App-header .sub-nav-menu .sub-nav-links div {
-  margin: 10px 0;
+  margin-top: 10px;
 }
 
 .App-header .sub-nav-menu .sub-nav-links div:hover {
